@@ -1,0 +1,25 @@
+@media only screen and (max-width:768px) {
+    .mario img {
+        width: 100% !important;
+    }
+    .monyologoM {
+        margin: 20px 0 !important;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .mario img {
+        width: 100% !important;
+    }
+    .CashbackContent h1 {
+        margin-right: 90px !important;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .CashbackContent .cash h1 {
+        margin-right: 0 !important;
+    }
+    .cashSlogan span {
+        font-size: 18px;
+    }
+}
