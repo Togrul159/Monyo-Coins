@@ -6,7 +6,7 @@
 body {
     background-image: url(./img/bodyBackground.png);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -71,10 +71,45 @@ body {
     width: 20%;
 }
 
+#RegisterForm .inpForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#RegisterForm .inpForm input {
+    border-bottom: 0.5px solid #727171;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: transparent;
+    padding: 5px;
+}
+
+#RegisterForm .inpForm label {
+    color: #727171;
+}
+
+#RegisterForm .inpForm button {
+    background: #5C5C5C;
+    padding: 4px 10px;
+    border-radius: 31px;
+    border: none;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pn label {
+    color: #727171;
+}
+
 footer .footerText {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 footer span {
