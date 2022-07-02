@@ -340,3 +340,20 @@ const countries = [{
 ];
 
 init(countries);
+
+
+
+$('.slider-nav').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    focusOnSelect: true
+});
+
+// // On before slide change
+// $('.slider-nav').on('afterChange', function(event, slick, currentSlide, nextSlide) {
+//     $('.slick-slide').removeClass('slick-active-first slick-active-last');
+//     $('.slick-active').eq(0).addClass('slick-active-first');
+//     $('.slick-active').eq(3).addClass('slick-active-last');
+// }).trigger('afterChange');

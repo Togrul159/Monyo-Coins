@@ -130,6 +130,40 @@ body {
     font-size: 22px;
 }
 
+.secondNav {
+    background: linear-gradient(148.44deg, #E80000 17.81%, #C80303 93.38%);
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.secondNav .Secondmonyologo img {
+    width: 70%;
+}
+
+.secondNav .SecondmonyoQr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.secondNav .SecondmonyoQr button {
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    padding-bottom: 5px;
+}
+
+.secondNav .SecondmonyoQr span {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
 footer .footerText {
     display: flex;
     justify-content: center;
@@ -146,3 +180,86 @@ footer span a {
     text-decoration: none;
     color: #303030;
 }
+
+.box {
+    position: relative;
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+.slider-for {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.slide-container {
+    height: 20vh;
+    background-color: transparent;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 40px;
+    font-weight: bold;
+    border: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.decor {
+    padding: 5px 40px;
+    background-color: #fff;
+    border: 2px solid #000
+}
+
+.slide-btn {
+    background: linear-gradient(0deg, rgba(160, 160, 160, 0.22), rgba(160, 160, 160, 0.22)), linear-gradient(144.81deg, #EDEDED 20.68%, rgba(249, 249, 249, 0.85) 84.09%);
+    box-shadow: 0px 4px 25px 0px #00000033;
+    padding: 10px;
+    border-radius: 12px;
+    width: 100% !important;
+}
+
+.slide-btn .restaurantLogo {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+}
+
+.slide-btn .restaurantLogo img {
+    width: 100%;
+}
+
+.slide-btn .cardInfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.slide-btn .cashText span {
+    display: flex;
+    align-items: center;
+}
+
+.slide-btn .cashText span img {
+    padding-right: 6px;
+}
+
+.slide-btn .priceBonus {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* .pricePr {
+    width: 100%;
+    justify-content: flex-end;
+} */
