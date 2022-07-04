@@ -341,7 +341,7 @@ const countries = [{
 
 init(countries);
 
-
+// Slider Start
 
 $('.slider-nav').slick({
     slidesToShow: 1,
@@ -357,3 +357,5 @@ $('.slider-nav').slick({
 //     $('.slick-active').eq(0).addClass('slick-active-first');
 //     $('.slick-active').eq(3).addClass('slick-active-last');
 // }).trigger('afterChange');
+
+// Slider End

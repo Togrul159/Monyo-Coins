@@ -15,6 +15,10 @@ body {
     margin-top: 6rem;
 }
 
+.mt-7 {
+    margin-top: 17rem;
+}
+
 .monyologo img {
     width: 30%;
 }
@@ -258,8 +262,150 @@ footer span a {
     justify-content: flex-end;
 }
 
+#tableContent h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#tableContent .leftBox .leftImg {
+    width: 60px;
+    background: #fff;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001a;
+}
+
+#tableContent .leftBox {
+    display: flex;
+    align-items: center;
+}
+
+#tableContent .leftBox .leftName {
+    margin-left: 20px;
+}
+
+#tableContent .leftBox .leftName span {
+    color: #727070;
+}
+
+#tableContent .leftBox .leftName span {
+    font-size: 16px;
+}
+
+#tableContent .leftBox .leftImg img {
+    width: 100%;
+}
+
+#tableContent .rightBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#tableContent .rightBox .boxPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tableContent .rightBox .priceImg {
+    margin-left: 10px;
+}
+
+#tableContent .rightBox .boxPrice span {
+    color: #17BE09;
+    font-weight: 600;
+}
+
+#tableContent .rightBox .boxPrice p {
+    color: #0A6D01;
+    font-weight: 400;
+}
+
+hr {
+    width: 85% !important;
+    margin: 20px auto !important;
+}
+
 
 /* .pricePr {
     width: 100%;
     justify-content: flex-end;
 } */
+
+.navThird {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 55% 50%, 50% 60%, 45% 50%, 0 50%);
+    width: 100%;
+    height: 20vh;
+    background-color: #E80202;
+}
+
+.navThird .verifText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top: 60%;
+}
+
+.navThird .verifText .endBtn {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navThird .verifText .endBtn a {
+    padding: 3px 8px;
+    background-color: #fff;
+}
+
+.navThird .verifText .endBtn a i {
+    color: #E80000;
+}
+
+.navThird .verifText h4 {
+    color: #Fff;
+}
+
+#OTP .bgWhite {
+    background: transparent;
+}
+
+#OTP .title h5 {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#OTP .customBtn {
+    border-radius: 0px;
+    padding: 5px 10px;
+    width: 30%;
+    margin: auto;
+    border: none;
+    color: #fff;
+    background: #E80202;
+    border-radius: 56px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+}
+
+#OTP form input {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #E80202;
+    border-radius: 12px;
+    margin: 0 5px;
+}

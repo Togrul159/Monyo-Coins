@@ -25,4 +25,7 @@
     .monyologo img {
         width: 40% !important;
     }
+    #tableContent .leftBox .leftName span {
+        font-size: 10px !important;
+    }
 }
