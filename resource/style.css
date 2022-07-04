@@ -11,6 +11,24 @@ body {
     background-repeat: no-repeat;
 }
 
+.floating-animate {
+    animation: bounceLimit 3s linear infinite;
+}
+
+@keyframes bounceLimit {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(8px);
+    }
+    75% {
+        transform: translateY(-8px);
+    }
+}
+
 .mt-6 {
     margin-top: 6rem;
 }
@@ -142,7 +160,7 @@ body {
 }
 
 .secondNav .Secondmonyologo img {
-    width: 70%;
+    width: 50%;
 }
 
 .secondNav .SecondmonyoQr {
@@ -221,6 +239,7 @@ footer span a {
     background: linear-gradient(0deg, rgba(160, 160, 160, 0.22), rgba(160, 160, 160, 0.22)), linear-gradient(144.81deg, #EDEDED 20.68%, rgba(249, 249, 249, 0.85) 84.09%);
     box-shadow: 0px 4px 25px 0px #00000033;
     padding: 10px;
+    padding: 40px 20px;
     border-radius: 12px;
     width: 100% !important;
 }

@@ -28,4 +28,10 @@
     #tableContent .leftBox .leftName span {
         font-size: 10px !important;
     }
+    .secondNav .Secondmonyologo img {
+        width: 70% !important;
+    }
+    .slide-btn {
+        padding: 10px !important;
+    }
 }
